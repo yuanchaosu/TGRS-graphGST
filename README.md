@@ -3,7 +3,7 @@
 # GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification
 # ------------------------------------------------
 # AUthors: Mengying Jiang, Yuanchao Su, Lianru Gao, Antonio Plaza, Xi-Le Zhao and Xun Sun
-# ------------------------------------------
+# ------------------------------------------------
 # Since developers cannot encapsulate Python codes, we did not upload the demo here.
 # Once the article is accepted, we will upload all the source code of GraphGST in this project.
 # ------------------------------------------
