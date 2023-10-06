@@ -9,7 +9,6 @@
 # ------------------------------------------------
 # Implementation Details:
 #
-# We use the ReLU activation function and Adam optimizer by default. 
 # The proposed GraphGST is implemented with the deep learning library PyTorch. 
 # The Python and PyTorch versions are 3.8.10 and 1.9.0, respectively. 
 # All experiments are conducted on a Windows server with a GPU (NVIDIA GeForce RTX 4090 Ti).
