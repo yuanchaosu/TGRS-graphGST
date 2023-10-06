@@ -3,8 +3,8 @@
 # GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification
 # -------------------------------------------------------------------------------------------------
 #
-# \\Since developers cannot encapsulate Python codes, we did not upload the demo here.\\
-# \\Once the article is accepted, we will upload all the source code of GraphGST in this project.\\
+# Since developers cannot encapsulate Python codes, we did not upload the demo here.
+# Once the article is accepted, we will upload all the source code of GraphGST in this project.
 #
 # -------------------------------------------------------------------------------------------------
 # Implementation Details:
