@@ -1,18 +1,11 @@
-# GraphGST
-#
-# GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification
-# ------------------------------------------------
-# AUthors: Mengying Jiang, Yuanchao Su, Lianru Gao, Antonio Plaza, Xi-Le Zhao, Guizhong Liu, and Xun Sun
-# ------------------------------------------------
-# Since developers cannot encapsulate Python codes, we did not upload the demo here.
-# Once the article is accepted, we will upload all the source code of GraphGST to this project.
-# ------------------------------------------------
-# Implementation Details:
-#
-# The proposed GraphGST is implemented with the deep learning library PyTorch. 
-# The Python and PyTorch versions are 3.8.10 and 1.9.0, respectively. 
-# All experiments are conducted on a Windows server with a GPU (NVIDIA GeForce RTX 4090 Ti).
-# ------------------------------------------------
-# Our GraphGST model was completed on May 20, 2023. 
-# It is a powerful Transformer model designed specifically for hyperspectral data.
-# Our manuscript was completed on September 26, 2023.
+GraphGST: Graph Generative Structure-Aware Transformer for Hyperspectral Image Classification
+------------------------------------------------
+Authors: Mengying Jiang, Yuanchao Su, Lianru Gao, Antonio Plaza, Xi-Le Zhao, Guizhong Liu, and Xun Sun
+python main.py --dataset Indian --epoches 400 --batch_size 64 --dropout 0.2
+--nlayers 9 --window_a 5 --window_b 11 --r_positive 0.1 --lambdas 5
+
+python main.py --dataset WHU_Hi_LongKou --epoches 400 --batch_size 512 --dropout 0.5
+ --nlayers 3 --window_a 7 --window_b 11  --r_positive 0.2 --lambdas 10
+
+python main.py --dataset Houston2013 --epoches 400 --batch_size 512 --dropout 0.4
+--nlayers 3 --window_a 5 --window_b 9 --r_positive 0.2 --lambdas 5
